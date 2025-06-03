@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+html{
+    /*me permite deslizar cuando hago clic en los links del menu*/
+    scroll-behavior: smooth;
+}
+/*MENU*/
+.contenedor-header{
+    background: #ad5389; 
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  
+    background: linear-gradient(to right, #3c1053, #ad5389); 
+    position: fixed;
+    width: 100%;
+    top:0%;
+    left:0;
+    z-index: 99;
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenedor-header header .logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    font-weight: 300;
+    color: #fffac8;
+    text-decoration: none;
+    /*text-shadow: 2px 2px 25px rgb(255, 71, 209);*/
+}  
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: #fffac8;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+} 
+.contenedor-header header nav ul li a:hover{
+    color:rgb(61, 3, 61);
+}
+.nav-responsive{
+    background-color: rgb(61, 3, 61);
+    color: #fffac8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    
+}
+/*SECCIÓN INICIO*/
+
+.inicio{
+    background: linear-gradient(to top, rgba(30, 35, 38, 0.927), rgba(30, 35, 38, 1)),
+    url(img/Programacion-informatica-scaled-e1724960033513.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color:#fff;
+    display: flex;
+    margin-top: 60px;
+}
+.contenedor-banner{
+
+    padding: 20px;
+    background-color: #33044d67;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+img{
+    margin-top: 40px;
+    border: 10px solid #b61c9cb3;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.inicio h1{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #ad5389;
+}
+
+.inicio h2{
+    font-size: 15px;
+    color:#ad5389;
+
+}
+
+.inicio .contenedor-banner .redes a{
+    color: #fffac8;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fffac8;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}  
+
+.inicio .contenedor-banner .redes a:hover{
+    background-color: #b61c9cb3;
+}
+
+.sobremi{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sobremi h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+.sobremi .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.sobremi .contenido-seccion p span{
+    color: #ad5389;
+    font-weight: bold;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: #ad5389;
+    width: 130px;
+}
+
+.sobremi a{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    text-decoration: none;
+}
+.sobremi a .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #ad5389;
+    z-index: -1;
+    transition: 1s;
+}
+.sobremi a:hover .overlay{
+    width: 100%;
+}

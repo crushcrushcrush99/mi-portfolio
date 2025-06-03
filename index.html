@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="./img/favicon.png" type="">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Sofía</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio"  onclick=" seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi"  onclick=" seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" >SKILLS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class=" nav-responsive">
+                            <span class="material-symbols-outlined">
+                                menu
+                            </span>
+    </div>
+    </header>
+    </div>
+
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenedor-banner">
+            <div class="contenedor-imagen">
+                <img src="img/481462066_4159579774271694_216898902759611832_n.jpg" alt="foto mía">
+            </div>
+            <h1> SOFÍA ALVES DA ROCHA </h1>
+            <h2> Programadora Fullstack </h2>
+            <div class="redes">
+                <a href="https://github.com/crushcrushcrush99" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/crushcrushcrush99/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sofía-alves-da-rocha/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://web.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCIÓN SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mí</h2>
+            <p><span>Hola, soy Sofía Alves da Rocha</span> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños </strong>
+                            25-01-99
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            1123948569
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            email@ejemplo.com
+                        </li>
+                        <li>
+                            <strong>Dirección </strong>
+                            Argentina, Buenos Aires, Merlo
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <a href="./cv/CV Sofía Alves da Rocha (1).pdf" " class="fa-solid fa-download">
+                Descargar CV
+                <span class="overlay"></span>
+            </a>
+
+
+            <!--<button onclick="">
+                
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+                
+            </button> -->
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
