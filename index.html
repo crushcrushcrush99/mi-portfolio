@@ -23,18 +23,18 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio"  onclick=" seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi"  onclick=" seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#skills" >SKILLS</a></li>
+                    <li><a href="#inicio" onclick=" seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick=" seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
                     <li><a href="#contacto">CONTACTO</a></li>
                 </ul>
             </nav>
             <div class=" nav-responsive">
-                            <span class="material-symbols-outlined">
-                                menu
-                            </span>
-    </div>
-    </header>
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </div>
+        </header>
     </div>
 
     <!-- SECCIÓN INICIO -->
@@ -47,8 +47,10 @@
             <h2> Programadora Fullstack </h2>
             <div class="redes">
                 <a href="https://github.com/crushcrushcrush99" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.instagram.com/crushcrushcrush99/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/sofía-alves-da-rocha/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/crushcrushcrush99/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sofía-alves-da-rocha/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
                 <a href="https://web.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
         </div>
@@ -88,7 +90,7 @@
 
             </div>
 
-            <a href="./cv/CV Sofía Alves da Rocha (1).pdf" " class="fa-solid fa-download">
+            <a href="./cv/CV Sofía Alves da Rocha (1).pdf" " class=" fa-solid fa-download" target="_blank">
                 Descargar CV
                 <span class="overlay"></span>
             </a>
@@ -101,6 +103,33 @@
                 
             </button> -->
 
+        </div>
+    </section>
+
+    <!--SECCIÓN CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <form class="col" action="https://formspree.io/f/manjngje" method="POST">
+
+                    <input type="email" name="email" placeholder="Dirección de correo" required>
+                    <textarea name="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <button type="submit">
+                        Enviar mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
+                <!--Mapa-->
+
+                <div class="col">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d154134.94971712813!2d-59.09064680103692!3d-34.71862084534334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bceba78297ff1d%3A0x62bb929fffd327cd!2sMariano%20Acosta%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses!2sar!4v1749062543172!5m2!1ses!2sar"
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
         </div>
     </section>
 
